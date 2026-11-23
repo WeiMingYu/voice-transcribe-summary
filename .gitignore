@@ -1,0 +1,12 @@
+# 資料庫（含轉錄內容與報告，不上傳）
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# 環境與暫存
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env

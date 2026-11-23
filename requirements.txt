@@ -1,0 +1,8 @@
+# 語音轉錄與摘要系統（Python 3.10+）
+streamlit>=1.35.0
+openai>=1.30.0          # 連本地 LM Studio（OpenAI 相容 API）
+openai-whisper          # 本機語音轉文字
+torch                   # Whisper 依賴；有 NVIDIA GPU 請安裝 CUDA 版
+apscheduler>=3.10.0     # 資料夾排程掃描
+yt-dlp                  # YouTube 字幕／音訊下載
+# 另需安裝 ffmpeg 並加入 PATH
